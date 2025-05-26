@@ -8,6 +8,12 @@ const message = ref("Tasks App");
 <template>
   <main>
     <h1>{{ message }}</h1>
+    <form>
+      <label>
+        New Tasks
+        <input name="newTask" type="text" placeholder="Enter a new task" />
+      </label>
+    </form>
   </main>
 </template>
 
